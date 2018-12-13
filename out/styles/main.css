@@ -1,0 +1,235 @@
+.header-aside {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.header-aside .title-small {
+  display: flex;
+  flex-direction: column;
+  background: #f9ea4a;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+.header-aside .title-small small {
+  text-transform: capitalize;
+}
+.header-aside .title-small strong {
+  font-weight: 700;
+  font-size: 18px;
+}
+.header-aside .title-small .text-small {
+  color: #511114;
+  letter-spacing: .05em;
+}
+.header-aside .login {
+  padding: 40px 150px 0 40px;
+}
+.header-aside .login a {
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.header-aside .login a i {
+  padding-right: 10px;
+}
+
+.header-logo {
+  position: absolute;
+  padding: 20px 0 0 40px;
+}
+.header-logo .logo {
+  color: white;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+.header-logo .logo span {
+  color: #00cc76;
+  text-transform: uppercase;
+  margin-left: -12px;
+}
+
+.header {
+  position: relative;
+}
+
+.banner .img-background img {
+  width: 100%;
+  height: 100%;
+}
+.banner .intro {
+  text-align: center;
+  position: absolute;
+  top: 240px;
+  left: 260px;
+}
+.banner .intro .title {
+  color: white;
+  font-weight: 100;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 0.02em;
+}
+.banner .intro .title span {
+  background: #00cc76;
+  padding: 4px 8px;
+  font-size: 35px;
+}
+.banner .intro .button {
+  color: white;
+  font-weight: 100;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: monospace;
+  background: #0098d4;
+  padding: 15px 25px;
+  margin-top: 60px;
+  border-radius: 4px;
+  border: none;
+}
+.banner .intro .button:hover {
+  background: none;
+  color: #0098d4;
+  border: 1px solid #0098d4;
+}
+
+.callout-intro {
+  position: absolute;
+  top: 610px;
+}
+.callout-intro .callout-title {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  background: #f9ea4a;
+  color: #511114;
+  padding: 15px 4px;
+  text-align: center;
+}
+.callout-intro .callout-title strong {
+  font-weight: 700;
+  font-size: 35px;
+}
+.callout-intro .callout-title span {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.callout-intro .callout-actions {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background: #00cc76;
+  color: white;
+  padding: 10px 8px;
+}
+.callout-intro .callout-actions strong {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.section-features {
+  background: #18222b;
+  position: relative;
+  padding-top: 40px;
+}
+.section-features .section-title {
+  color: white;
+  font-size: 35px;
+  font-family: serif;
+  margin-top: 210px;
+}
+
+.features {
+  margin-top: 130px;
+  height: 700px;
+}
+.features .row-feature {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 80px;
+}
+.features .row-feature .col-feature {
+  margin-right: 20px;
+}
+.features .row-feature .col-feature .feature-title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: serif;
+  letter-spacing: -.01em;
+}
+.features .row-feature .col-feature .feature-stats {
+  color: #00cc76;
+  font-size: 40px;
+  font-weight: 300;
+}
+.features .row-feature .col-feature .feature-content {
+  color: #687178;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 100px;
+  z-index: 2;
+  height: 440px;
+  margin: 15px 0px 0px 50px;
+}
+.row .col-step {
+  width: 30.333333%;
+  box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.4);
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+  margin-right: 30px;
+}
+.row .col-step .step-header {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  margin-top: 60px;
+  box-shadow: 0px 0px 10px rgba(211, 8, 8, 0.4);
+  color: #0098d4;
+  display: inline-block;
+}
+.row .col-step .step-header span {
+  font-size: 30px;
+}
+.row .col-step .step-content {
+  margin-top: 240px;
+  color: #5c5f66;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 150px;
+  color: #000;
+  font-weight: 300;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.section-title span {
+  color: #00cc76;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}

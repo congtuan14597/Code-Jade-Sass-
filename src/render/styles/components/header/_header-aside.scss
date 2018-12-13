@@ -1,0 +1,33 @@
+.header-aside {
+  position: absolute;
+  right: 0px;
+  @include flex(flex, row);
+  .title-small {
+    @include flex(flex, column);
+    background: $cl-yellow;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 4px;
+    small {
+      text-transform: capitalize;
+    }
+    strong {
+      @include fontSize(700, 18px);
+    }
+    .text-small {
+      color: $cl-brown;
+      letter-spacing: .05em;
+    }
+  }
+  .login {
+    padding: 40px 150px 0 40px;
+    a {
+      @include font($cl-white, 100, 15px, uppercase, sans-serif);
+      text-decoration: none;
+      i {
+        padding-right: 10px;
+      }
+    }
+  }
+}

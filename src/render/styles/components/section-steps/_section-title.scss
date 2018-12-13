@@ -1,0 +1,8 @@
+.section-title {
+  text-align: center;
+  margin-top: 150px;
+  @include font($cl-dark-black, 300, 38px, uppercase, sans-serif);
+  span {
+    color: $cl-green;
+  }
+}

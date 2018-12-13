@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+  title Jade Sass
+  meta(charset="UTF-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible", content="ie=edge") 
+  != getBlock('scripts').toHTML()
+  link(rel="stylesheet", href="styles/main.css")
+  link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.3.1/css/all.css", integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU", crossorigin="anonymous")
+body
+  .container 
+    .header 
+      .header-logo 
+        h1.logo 
+          a flirty 
+            span cash 
+      .header-aside
+        .title-small 
+          small wellcome 
+          strong 500€ 
+          span.text-small bonus 
+        .login 
+          a(href="#")
+            i.fas.fa-lock 
+            span login 
+        .icon 
+    .nav
+      .banner 
+        .img-background 
+          img(src="https://www.flirtycash.com/css/images/intro-bg.jpg", alt="")
+        .intro 
+          h2.title are you ready to make some 
+            span serious 
+            | money?
+          button.button join now 
+      .callout-intro 
+        .callout-title 
+          strong 500€
+          span wellcome bonus 
+        .callout-actions 
+          strong register now 
+          small easy register with only email address 
+    section.section-steps 
+      h1.section-title
+        | you can 
+        span trust us 
+        | to do the job for you! 
+      .row 
+        .col-step 
+          .step-header 
+            span 1 
+          .step-image 
+            i 
+          .step-content 
+            p create your own online
+              br
+              | dating website
+        .col-step
+          .step-header 
+            span 2 
+          .step-image  
+            i 
+          .step-content 
+            p promote top brands 
+        .col-step
+          .step-header 
+            span 3
+          .step-image 
+            i 
+          .step-content 
+            p run your own 
+              br 
+              | affiliate marketing network 
+    section.section-features 
+      h2.section-title our 
+        span stats 
+      .features 
+        .row-feature 
+          .col-feature 
+            .feature-image 
+              i 
+            h4.feature-title active affiliates
+            h2.feature-stats 2,000+
+            .feature-content 
+              p More than 2000 affiliates already trust us. Don't hesitate and be the next. 
+          .col-feature 
+            .feature-image 
+              i
+            h4.feature-title paid out last year
+            h2.feature-stats 3,500,000+
+            .feature-content 
+              p Having the best conversion in the industry helps to give amazing payouts!
+          .col-feature 
+            .feature-image 
+              i 
+            h4.feature-title monthly unique visitors
+            h2.feature-stats 100,000,000
+            .feature-content 
+              p With more than 100 million unique visitors per month you can trust, we know what we do
+          .col-feature 
+            .feature-image 
+              i
+            h4.feature-title world class brands
+            h2.feature-stats 10+
+            .feature-content 
+              p Nº1 on dating by Alexa ranking: Follamigos Spain, Scopamici italy,  Amigovios Mexico, Fuckbuds Australia...And many more
+

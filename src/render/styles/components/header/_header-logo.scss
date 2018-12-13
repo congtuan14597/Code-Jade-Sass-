@@ -1,0 +1,12 @@
+.header-logo {
+  position: absolute;
+  padding: 20px 0 0 40px;
+  .logo {
+    @include font($cl-white, 700, 35px, capitalize, sans-serif);
+    span {
+      color: $cl-green;
+      text-transform: uppercase;
+      margin-left: -12px;
+    }
+  }
+}

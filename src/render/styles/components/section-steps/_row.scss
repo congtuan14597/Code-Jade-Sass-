@@ -1,0 +1,33 @@
+.row {
+  @include flex(flex, row);
+  position: relative;
+  top: 100px;
+  z-index: 2;
+  height: 440px;
+  margin: 15px 0px 0px 50px;
+  .col-step {
+    width: 30.333333%;
+    box-shadow: 0px 0px 10px rgba(50,50,50,0.4);
+    border-radius: 5px;
+    background: $cl-white;
+    text-align: center;
+    margin-right: 30px;
+    .step-header {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      border-radius: 50%;
+      margin-top: 60px;
+      box-shadow: 0px 0px 10px rgba(211, 8, 8, 0.4);
+      color: $cl-blue;
+      display: inline-block;
+      span {
+        font-size: 30px;
+      }
+    }
+    .step-content {
+      margin-top: 240px;
+      @include font($cl-gray, 300, 18px, capitalize, sans-serif);
+    }
+  }
+}

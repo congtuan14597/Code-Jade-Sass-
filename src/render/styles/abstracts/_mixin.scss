@@ -1,0 +1,23 @@
+@mixin posTop($pos, $top) {
+  position: $pos;
+  top: $top;
+}
+@mixin font($cl, $f-weight, $f-size, $t-transform, $f-family) {
+  color: $cl;
+  font-weight: $f-weight;
+  font-size: $f-size;
+  text-transform: $t-transform;
+  font-family: $f-family;
+} 
+@mixin flex($display, $f-direction) {
+  display: $display;
+  flex-direction: $f-direction;
+}
+@mixin fontFamily($t-transform, $f-family) {
+  text-transform: $t-transform;
+  font-family: $f-family;
+}
+@mixin fontSize($f-weight, $f-size) {
+  font-weight: $f-weight;
+  font-size: $f-size;
+}

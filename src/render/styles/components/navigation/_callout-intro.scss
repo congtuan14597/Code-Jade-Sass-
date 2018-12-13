@@ -1,0 +1,28 @@
+.callout-intro {
+  @include posTop(absolute, 610px);
+  .callout-title {
+    @include flex(flex, column);
+    width: 170px;
+    background: $cl-yellow;
+    color: $cl-brown;
+    padding: 15px 4px;
+    text-align: center;
+    strong {
+      @include fontSize(700, 35px);
+    }
+    span {
+      @include fontFamily(uppercase, sans-serif);
+    }
+  }
+  .callout-actions {
+    @include flex(flex, column);
+    width: 200px;
+    background: $cl-green;
+    color: $cl-white;
+    padding: 10px 8px;
+    strong {
+      @include fontFamily(uppercase, sans-serif);
+      font-weight: 100;
+    }
+  }
+}
